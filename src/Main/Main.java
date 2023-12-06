@@ -19,6 +19,7 @@ public class Main {
         list.add("David");
         list.add("Camilo");
         list.add("Juan");
+        list.add("Carlos");
 
         //Mostramos la lista
         System.out.println("Lista: " + list);
