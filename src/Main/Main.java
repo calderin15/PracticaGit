@@ -32,6 +32,7 @@ public class Main {
         list.set(0, "Pedro");
 
         //Volvemos a mostrar la lista pero con un foreach
+        System.out.println("Listado de nombres:");
         for (String nombre: list) {
             System.out.println("Nombre: " + nombre);
         }
