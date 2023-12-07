@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Esta Marlon en la lista? ->" + list.contains("Marlon"));
 
         //Modificamos un elemento de la lista
-        list.set(0, "Pedro");
+        list.set(1, "Pedro");
 
         //Volvemos a mostrar la lista pero con un foreach
         System.out.println("Listado de nombres:");
@@ -40,6 +40,7 @@ public class Main {
         //Eliniminamos un elemento de la lista
         //Aqui podemos pasar el elemento y eliminarlo
         list.remove("Juan");
+
         //Aqui podemos pasar su posición y eliminarlo
         list.remove(2);
 
@@ -53,6 +54,7 @@ public class Main {
         }
         //Obtenemos el tamaño de la lista
         System.out.println("El tamaño es: " + list.size());
+
     }
 
 }
