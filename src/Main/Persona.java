@@ -15,8 +15,12 @@ public class Persona {
         this.telefono = telefono;
     }
 
+    public String getNombreCompleto() {
+        return nombreCompleto;
+    }
+
     @Override
     public String toString() {
-        return "nombreCompleto= " + nombreCompleto + "\nDireccion=" + direccion + "\nTelefono=" + telefono + "\n";
+        return "nombreCompleto= " + nombreCompleto + "\nDireccion= " + direccion + "\nTelefono= " + telefono + "\n";
     }
 }
