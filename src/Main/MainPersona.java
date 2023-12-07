@@ -14,10 +14,11 @@ public class MainPersona {
                     new Persona("John Martinez", "Bogota DC", "(555) 745 765 5"),
                     new Persona("Miguel Miranda", "Bogota DC", "(555) 543 344 7"),
                     new Persona("Laura Padilla", "Bogota DC", "(555) 872 654 2"),
-                    new Persona("Martha Luna", "Bogota DC", "(555) 456 123 9")
+                    new Persona("Sara Luna", "Momil DC", "(555) 456 123 9")
         };
 
         Persona persona = new Persona("Carlos Smith", "Cartagena", "(555) 865 865 2");
+
 
         for (Persona p: lista) {
             personas.add(p);
