@@ -16,10 +16,13 @@ public class MainPersona {
                 new Persona("Martha Luna", "Bogota DC", "(555) 456 123 9")
         };
 
+        Persona persona = new Persona("Lol master", "Momil DC","(333)6667778");
+
 
         for (Persona p: lista) {
             personas.add(p);
         }
+        personas.add(persona);
 
         System.out.println("Listado de personas:\n");
         System.out.println("- - - - - - - - - - - - - - - - -");
@@ -27,6 +30,7 @@ public class MainPersona {
             System.out.println(p.toString());
             System.out.println("- - - - - - - - - - - - - - - - -");
         }
+        System.out.println("Existe lol masterYT en la lista "+personas.contains(persona));
 
     }
 
